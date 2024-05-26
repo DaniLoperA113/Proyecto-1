@@ -80,6 +80,13 @@ h1 {
     margin:50px 0px 30px 0px;
     }
 
+    /* Daniela Cattoni */
+body { font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    background-color:rgb(253, 249, 230);
+    margin: 30px;
+    }
+
 h2 {color: rgb(255, 225, 230); 
     font-size: 30px;
     font-style: normal;
@@ -96,21 +103,18 @@ h2 {color: rgb(255, 225, 230);
 h3 {text-decoration: underline;
     font-size: 20px; 
     letter-spacing: 5px;
-    color: #ad10ad}
-    
-body { font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    background-color:rgb(253, 249, 230);
-    margin: 30px;
+    color: #ad10ad
     }
+    
+.definicion  {display: flex;}
 
 p {text-align: justify;
-line-height: 2;}
+    line-height: 2;}
 
 table {border: 1px solid rgb(219, 181, 255);
     background-color: rgb(255, 225, 230);
-    margin-bottom: 10px; }
-
+    margin-bottom: 10px; 
+    }
 
 .titulotabla {text-align: center;}
 td {padding-left: 20px; font-style: oblique;}
@@ -126,18 +130,18 @@ tr {margin: 1px;}
     text-align: center;  }
 
 .femicidio {display: flex;}
-.definicion  {display: flex;}
+
 
 .fotopuño {padding: 10px; width:50%}
-.fotomano {padding: 40px; width:50%}
 
-
+.fotomano {padding: 10px; width: 50%;}
+/*
  @media screen and (max-width: 576px) {.definicion {display: table-row-group;} 
  }
 
  @media screen and (max-width: 576px) {.femicidio {display: table-row-group;} 
  }
-
+*/
  footer{
     font-size: 16px;
     text-align: center;

@@ -3,8 +3,6 @@
     padding:0;
     box-sizing: border-box;
     }
-body {margin: 30px;
-    }
 .menu ul{
     font-family:"Raleway", sans-serif;
     font-weight: 400 ;
@@ -49,6 +47,34 @@ body {margin: 30px;
         order: 5;
         flex-grow: 2;
     }
+  /* Daniela Cattoni */
+  
+body {margin: 30px;
+    }
+em:hover {color: rgb(120, 1, 108);
+    font-family: Arial, Helvetica, sans-serif
+    }
+em {color: rgb(239, 17, 213);
+    letter-spacing: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+    }
+.denuncia:hover {background-color: rgb(250, 183, 255);
+    } 
+.denuncia{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    background-color: rgb(255, 239, 251);
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 25px;
+    font-weight: bold;
+    } 
 .contenedor-recursos{
     padding: 20px;
     margin: 20px;
@@ -60,29 +86,19 @@ body {margin: 30px;
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     background-color: rgb(255, 239, 251);
+    box-sizing: border-box;
+    overflow: auto;
     }
+.tituloslinks {text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;}
+
 .contenedor-recursos img{
     border-radius: 10px; 
     border: 1px solid #ad10ad;
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    height: auto; 
-    }
-.contenedor-recursos h2{
-    background-color: white;
-    border-radius: 10px; 
-    border: 1px solid #ad10ad;
-    padding: 10px;
-    text-align: center;
-    }
-.contenedor-recursos h3{
-    background-color:#ad10ad;
-    width: 250px;
-    border-radius: 10px; 
-    color:white;
-    padding: 5px 10px;
-    margin: 10px;
+    width: 30%;
+    /*object-fit: cover;*/
+    height: auto;
     }
 .contenedor-recursos li{
     padding: 5px;
@@ -90,7 +106,7 @@ body {margin: 30px;
 .texto-recursos{
     padding: 10px;
     height: 40%;
-    width: 800px;
+    width: 65%;
     font-size: 1em;
     }
 footer{
@@ -105,3 +121,6 @@ footer{
     padding: 10px 5px;
     }
     
+@media screen and (max-width: 576px) {.texto-recursos {display: table-row-group;} 
+}
+
