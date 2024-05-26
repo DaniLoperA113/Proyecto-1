@@ -133,8 +133,32 @@
         display: block;
         width: 50%;
         margin: auto;
-
     }
+    @media screen and (max-width: 576px) {.definicion {display: table-row-group;} 
+    }
+
+    @media screen and (max-width: 576px) {.femicidio {display: table-row-group;} 
+    }
+
+    .femicidio {display: flex;}
+
+
+
+
+    footer{
+        font-family:"Oswald", sans-serif;;
+        font-size: 16px;
+        text-align: center;
+        color:rgb(253, 249, 230);
+        background-color: #ad10ad;
+        display:block;
+        padding-bottom: 20px;
+        }
+     #margincopy {
+        padding: 10px 5px;
+        }
+    
+    
     
 
 

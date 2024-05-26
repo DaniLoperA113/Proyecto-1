@@ -88,8 +88,10 @@ li{
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     margin: 20px;
-    padding: 2% ;
-    width: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1% ;
+    width: 510px;
     height: 350px;
     
  }
@@ -145,7 +147,7 @@ li{
     font-size: large;
     text-align: center;
     color: #5a035a;
-
+    
 }
 
 .contenedor-recursos{
