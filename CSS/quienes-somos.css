@@ -3,9 +3,9 @@
     padding:0;
     box-sizing: border-box;
     }
-
+    body {margin: 30px;
+    }
 .menu ul{
-    font-family:"Oswald", sans-serif;
     font-weight: 400 ;
     font-size: 18px;
     list-style: none;
@@ -148,57 +148,8 @@ li{
 
 }
 
-.contenedor-recursos{
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px; 
-    border: 1px solid #ad10ad;
-    background-color: rgb(255, 239, 251);
-
-}
-.contenedor-recursos img{
-    border-radius: 10px; 
-    border: 1px solid #ad10ad;
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    height: auto; 
-}
-.contenedor-recursos h2{
-    background-color: white;
-    border-radius: 10px; 
-    border: 1px solid #ad10ad;
-    padding: 10px;
-    text-align: center;
-
-}
-.contenedor-recursos h3{
-    background-color:#ad10ad;
-    width: 250px;
-    border-radius: 10px; 
-    color:white;
-    padding: 5px 10px;
-    margin: 10px;
-}
-.contenedor-recursos li{
-    padding: 5px;
-
-}
-.texto-recursos{
-    padding: 10px;
-    height: 40%;
-    width: 800px;
-    font-size: 1em;
-}
-
 
 footer{
-    font-family:"Oswald", sans-serif;;
     font-size: 16px;
     text-align: center;
     color:rgb(253, 249, 230);

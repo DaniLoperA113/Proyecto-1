@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+body {margin: 30px;
+    }
+.menu ul{
+    font-family:"Raleway", sans-serif;
+    font-weight: 400 ;
+    font-size: 18px;
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    }
+.menu ul li a{
+    color:rgb(255, 225, 230);
+    font-weight: bold;
+    border-style:inset;
+    display: block;
+    padding: 15px 50px;
+    text-decoration: none;
+    background-color: #ad10ad ;
+    }
+.menu ul li a:hover{
+    background-color: rgb(245, 114, 243);
+    }
+.li1 {
+    order: 1;
+    flex-grow: 2;
+     }
+.li2 {
+    order: 2;
+    flex-grow: 2;
+     }
+.li3 {
+    order: 3;
+    flex-grow: 2;
+     }
+.li4 {
+        order: 4;
+        flex-grow: 2;
+    }
+.li5 {
+        order: 5;
+        flex-grow: 2;
+    }
+.contenedor-recursos{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    background-color: rgb(255, 239, 251);
+    }
+.contenedor-recursos img{
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    height: auto; 
+    }
+.contenedor-recursos h2{
+    background-color: white;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    padding: 10px;
+    text-align: center;
+    }
+.contenedor-recursos h3{
+    background-color:#ad10ad;
+    width: 250px;
+    border-radius: 10px; 
+    color:white;
+    padding: 5px 10px;
+    margin: 10px;
+    }
+.contenedor-recursos li{
+    padding: 5px;
+    }
+.texto-recursos{
+    padding: 10px;
+    height: 40%;
+    width: 800px;
+    font-size: 1em;
+    }
+footer{
+    font-size: 16px;
+    text-align: center;
+    color:rgb(253, 249, 230);
+    background-color: #ad10ad;
+    display:block;
+    padding-bottom: 20px;
+    }
+#margincopy {
+    padding: 10px 5px;
+    }
+    
