@@ -3,6 +3,13 @@
     padding:0;
     box-sizing: border-box;
     }
+
+    /*body { font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        background-color:rgb(253, 249, 230);
+        margin: 30px;
+        }*/
+
     .menu ul{
         font-family:"Raleway", sans-serif;
         font-weight: 400 ;
@@ -49,10 +56,11 @@
             flex-grow: 2;
         }
         
-    H2 {color: rgb(255, 225, 230); 
+    h2 {color: rgb(255, 225, 230); 
         font-size: 30px;
         font-style: normal;
         font-weight: bold;
+        border-radius: 10px;
         letter-spacing: 5px;
         /* width: 90%;*/
         margin: auto;
@@ -61,20 +69,75 @@
         background-color: #ad10ad;
         }
     
-    H3 {text-decoration: underline;
-        font-size: 20px; 
+    h3 {
+        text-decoration: underline;
+        font-size: 20px;
+        border-radius: 10px;
         letter-spacing: 5px;
-        color: #ad10ad}
-        
-    body { font-family: "Raleway", sans-serif;
-        font-size: 16px;
-        background-color:rgb(253, 249, 230);
-        margin: 30px;
-        }
+        color: #ad10ad;
+        padding: 2rem 2rem 2rem 0rem;
+        margin-top: 10px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 5px ;
+        grid-row-gap: 10px;
+        justify-items: center;
+    } 
+ 
+    div img {
+        width: 40rem;
+        padding: 10px;
+        margin-top: 20px; 
+    }
     
-    p {text-align: justify;
-    line-height: 2;}
+     div p{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+        line-height: 2;
+     }
 
+     p::first-letter {
+        font-size: 150%;
+    }
+    
+    .grid2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 0px ;
+        justify-items:stretch;
+    } 
+    .spacep {
+        margin-left: 10px;
+        margin-right: 1px;
+        padding-right: 1px;
+    }
+
+    #violenciagenero {
+        width: 28rem;
+        margin-top: 5px;
+    }
+    #centerimg{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    @media screen and (max-width: 576px) {.definicion {display: table-row-group;} 
+    }
+
+    @media screen and (max-width: 576px) {.femicidio {display: table-row-group;} 
+    }
+
+    /*p {text-align: justify;
+    line-height: 2;}*/
+    .femicidio {
+        display: flex;
+    }
     footer{
         font-size: 16px;
         text-align: center;

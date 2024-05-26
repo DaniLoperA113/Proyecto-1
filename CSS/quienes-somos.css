@@ -88,11 +88,10 @@ li{
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     margin: 20px;
-    padding: 2% ;
-    width: 500px;
+    padding: 3% ;
+    width: 450px;
     height: 350px;
-    
- }
+}
 
 .equipo img{
     border-radius: 10px; 
@@ -148,6 +147,9 @@ li{
 
 }
 
+.femicidio {
+    display:flex;
+}
 
 footer{
     font-size: 16px;
