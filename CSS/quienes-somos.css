@@ -84,12 +84,12 @@ li{
     justify-content: space-around;
 }
  .equipo p {
-    font-size: large;
+    font-size: medium;
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     margin: 20px;
-    padding: 3% ;
-    width: 450px;
+    padding: 2% ;
+    width: 500px;
     height: 350px;
 }
 
@@ -120,11 +120,11 @@ li{
     margin: 5px;
     background-color: white;
     box-shadow: 1px 0 5px 05px rgba(0,0,0,0.3) ;
-    width: 300px;
+    width: 350px;
     height:auto;
     border: 1px solid #ad10ad;
     border-radius: 10px; 
-    height: 450px;
+    height: 480px;
     text-align: center;
 }
 .card-equipo img{
@@ -138,6 +138,7 @@ li{
     padding: 10px;
     height: 50%;
     overflow: hidden;
+
 }
 .texto-card h5{
     font-family:"raleway", sans-serif ;
