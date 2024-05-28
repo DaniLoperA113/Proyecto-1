@@ -117,6 +117,8 @@ footer{
     display:block;
     padding-bottom: 20px;
     }
+
+    .femicidio {display: flex;}
 #margincopy {
     padding: 10px 5px;
     }
