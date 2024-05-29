@@ -145,6 +145,8 @@ tr {margin: 1px;}
 .fotopuño {padding: 10px; width:50%}
 
 .fotomano {padding: 10px; width: 50%;}
+
+#menu {flex-wrap: unset;}
 /* 
 @media screen and (max-width: 576px) {.definicion {display: table-row-group;} 
  }
