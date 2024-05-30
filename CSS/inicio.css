@@ -16,10 +16,9 @@ Luisina Gratti: HEAD ambas páginas.
     box-sizing: border-box;
     }
 
-.menu ul{
-    font-family:"Raleway", sans-serif;
+.menu ul{font-family:"Raleway", sans-serif;
     font-weight: 400 ;
-    font-size: 18px;
+    font-size: 14px;
     list-style: none;
     margin:0;
     padding:0;
@@ -34,7 +33,7 @@ Luisina Gratti: HEAD ambas páginas.
     font-weight: bold;
     border-style:inset;
     display: block;
-    padding: 15px 50px;
+    padding: 5px 5px;
     text-decoration: none;
     background-color: #ad10ad ;
     }
@@ -62,6 +61,8 @@ Luisina Gratti: HEAD ambas páginas.
         flex-grow: 2;
     }
 
+
+    /* Daniela Cattoni */
 h1 {
     color:rgb(255, 225, 230); 
     font-size: 30px;
@@ -70,22 +71,22 @@ h1 {
     letter-spacing: 5px;
     border-radius: 10px;
    /* width: 90%;*/
-    margin: 50px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
     text-align: center;  
     outline-style: double; 
     background-color:  #710671;
     }
 
 #marginp {
-    margin:50px 0px 30px 0px;
+    margin:20px 0px 20px 0px;
     }
 
-    /* Daniela Cattoni */
 body { font-family: "Raleway", sans-serif;
     font-size: 16px;
     background-color:rgb(253, 249, 230);
     margin: 30px;
     }
+/*.media {display: flex;}*/
 
 h2 {font-family: "raleway", sans-serif; 
     color: #ad10ad;
@@ -94,20 +95,7 @@ h2 {font-family: "raleway", sans-serif;
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     padding: 10px;
-    background-color: rgb(255, 239, 251);;
-    
-    
-    /*color: rgb(255, 225, 230); 
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 5px;
-    border-radius: 10px;
-     width: 90%;
-    margin: auto;
-    text-align: center;  
-    outline-style: double; 
-    background-color: #ad10ad;*/
+    background-color: rgb(255, 239, 251);
     }
 
 h3 {text-decoration: underline;
@@ -116,46 +104,62 @@ h3 {text-decoration: underline;
     color: #ad10ad
     }
     
-.definicion  {display: flex;}
+.definicion  {display: flex;
+flex-direction: column;}
 
 p {text-align: justify;
     line-height: 2;}
 
-table {border: 1px solid rgb(219, 181, 255);
-    background-color: rgb(255, 225, 230);
-    margin-bottom: 10px; 
+.tabla  {display: flex;
+        flex-direction: column;
+        padding: 05px;
     }
 
-.titulotabla {text-align: center;}
-td {padding-left: 20px; font-style: oblique;}
-tr {margin: 1px;}
+.etapa1 {padding: 10px;border: solid #710671;}
+.etapa2 {padding: 10px;border: solid #710671;}
+.etapa3 {padding: 10px;border: solid #710671;}
 
-.encabezado {color: #ad10ad; 
-    margin: 50px 0px 30px 0px;
-    -webkit-text-stroke-color:rgb(245, 114, 243);
-    font-size: 22px;
-    font-variant: small-caps;
-    letter-spacing: 10px;
-    -webkit-text-stroke: 1px;
-    text-align: center;  }
-
-.femicidio {display: flex;}
+.femicidio {display: flex; flex-direction: column;}
 
 
-.fotopuño {padding: 10px; width:50%}
+.foto1 {padding: 5px; width:20rem;}
 
-.fotomano {padding: 10px; width: 50%;}
+.fotomano {padding: 5px; width: 20rem;}
 
-#menu {flex-wrap: unset;}
-/* 
-@media screen and (max-width: 576px) {.definicion {display: table-row-group;} 
+
+.flecha {width: 20px;
+    /*background-color: #710671;
+    display: flex;
+    justify-content: flex-end;*/}
+
+    
+   
+@media screen and (min-width: 480px) {
+    .media {background-color: aqua;}
+    .definicion {flex-direction: column;}
+    .femicidio {flex-direction: column;}
+    .foto1 {width: 30rem;}
+    .fotomano {width: 30rem;}
+}
+
+@media screen and (min-width: 768px) {.media {background-color: rgb(60, 10, 179)};
+.foto1 {width: 30rem;}
+.fotomano {width: 30rem;}
+.definicion {flex-direction: row;}
+.femicidio {flex-direction: row;}
+.tabla  {flex-direction: row;}
+}
+
+@media screen and (min-width: 1024px) {.media {background-color: rgb(0, 5, 5);} 
+.foto1 {width: 40rem;}
+.fotomano {width: 40rem;}
+.definicion {flex-direction: row;}
+.femicidio {flex-direction: row;}
+.tabla  {flex-direction: row;}
  }
 
- @media screen and (max-width: 576px) {.femicidio {display: table-row-group;} 
- }
- */
  footer{
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
     color:rgb(253, 249, 230);
     background-color: #ad10ad;
@@ -165,6 +169,3 @@ tr {margin: 1px;}
  #margincopy {
     padding: 10px 5px;
     }
-
- 
- 

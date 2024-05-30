@@ -47,8 +47,9 @@
         order: 5;
         flex-grow: 2;
     }
-  /* Daniela Cattoni */
   
+  
+    /* Daniela Cattoni */ 
 body {margin: 30px;
     }
 h2{
@@ -134,6 +135,11 @@ footer{
 #margincopy {
     padding: 10px 5px;
     }
+
+.flecha {width: 20px;
+    /*display: flex;
+    justify-content: flex-end;*/}
+
     
 @media screen and (max-width: 576px) {.texto-recursos {display: table-row-group;} 
 }
