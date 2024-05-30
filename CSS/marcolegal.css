@@ -200,7 +200,7 @@
             }
             
             @media screen and (min-width: 1024px) {
-            body {background-color: pink;} 
+            /*body {background-color: pink;} */
             div img {
                 width: 25rem;
             }

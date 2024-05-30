@@ -134,13 +134,13 @@ footer{font-size: 12px;
 @media screen and (min-width: 480px) {
     /*.media {background-color: aqua;}*/
     .contenedor-recursos {flex-direction: column;}
-    .telef {width: 25rem;}
+    .telef {width: 20rem;}
     }
 
 @media screen and (min-width: 768px) {
     /*.media {background-color: rgb(60, 10, 179)};*/
-    .contenedor-recursos {flex-direction: row;}
-    .telef {width: 40rem;}
+    .contenedor-recursos {flex-direction: row; padding-right: 10px;}
+    .telef {width: 25rem;}
     }
 
 @media screen and (min-width: 1024px) {
