@@ -6,7 +6,7 @@
 .menu ul{
     font-family:"Raleway", sans-serif;
     font-weight: 400 ;
-    font-size: 18px;
+    font-size: 14px;
     list-style: none;
     margin:0;
     padding:0;
@@ -20,7 +20,7 @@
     font-weight: bold;
     border-style:inset;
     display: block;
-    padding: 15px 50px;
+    padding: 5px 5px;
     text-decoration: none;
     background-color: #ad10ad ;
     }
@@ -48,12 +48,10 @@
         flex-grow: 2;
     }
   
-  
     /* Daniela Cattoni */ 
 body {margin: 30px;
     }
-h2{
-    font-family: "raleway", sans-serif; 
+h2{ font-family: "raleway", sans-serif; 
     color: #ad10ad;
     margin: 20px;
     text-align: center;
@@ -62,7 +60,6 @@ h2{
     padding: 10px;
     background-color: rgb(255, 239, 251);
     }
-
 
 em:hover {color: rgb(120, 1, 108);
     font-family: Arial, Helvetica, sans-serif
@@ -74,8 +71,7 @@ em {color: rgb(239, 17, 213);
     }
 .denuncia:hover {background-color: rgb(250, 183, 255);
     } 
-.denuncia{
-    padding: 10px;
+.denuncia{padding: 10px;
     margin: 20px;
     display: flex;
     align-items: center;
@@ -88,14 +84,11 @@ em {color: rgb(239, 17, 213);
     font-size: 25px;
     font-weight: bold;
     } 
-.contenedor-recursos{
-    padding: 20px;
-    margin: 20px;
+.contenedor-recursos{padding: 0px;
+    margin: 05px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     border-radius: 10px; 
     border: 1px solid #ad10ad;
     background-color: rgb(255, 239, 251);
@@ -106,41 +99,52 @@ em {color: rgb(239, 17, 213);
     font-weight: bold;
     font-size: 20px;}
 
-.contenedor-recursos img{
-    border-radius: 10px; 
+.telef{border-radius: 10px; 
     border: 1px solid #ad10ad;
-    width: 30%;
-    /*object-fit: cover;*/
-    height: auto;
-    }
-.contenedor-recursos li{
-    padding: 5px;
-    }
-.texto-recursos{
+    width: 15rem;
     padding: 10px;
+    }
+.contenedor-recursos li{padding: 5px;
+    }
+.texto-recursos{padding: 15px;
+    margin: 15px;
     height: 40%;
     width: 65%;
     font-size: 1em;
     }
-footer{
-    font-size: 16px;
+footer{font-size: 10px;
     text-align: center;
     color:rgb(253, 249, 230);
     background-color: #ad10ad;
     display:block;
     padding-bottom: 20px;
     }
+   
+.femicidio {display: flex;
+    }
 
-    .femicidio {display: flex;}
-#margincopy {
-    padding: 10px 5px;
+#margincopy {padding: 10px 5px;
     }
 
 .flecha {width: 20px;
-    /*display: flex;
-    justify-content: flex-end;*/}
+    }
 
-    
-@media screen and (max-width: 576px) {.texto-recursos {display: table-row-group;} 
-}
+   
+@media screen and (min-width: 480px) {
+    /*.media {background-color: aqua;}*/
+    .contenedor-recursos {flex-direction: column;}
+    .telef {width: 25rem;}
+    }
+
+@media screen and (min-width: 768px) {
+    /*.media {background-color: rgb(60, 10, 179)};*/
+    .contenedor-recursos {flex-direction: row;}
+    .telef {width: 40rem;}
+    }
+
+@media screen and (min-width: 1024px) {
+    /*.media {background-color: rgb(0, 5, 5);} */
+    .contenedor-recursos {flex-direction: row;}
+    .telef {width: 40rem;}
+    }
 
