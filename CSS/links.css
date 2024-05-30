@@ -97,7 +97,8 @@ em {color: rgb(239, 17, 213);
     }
 .tituloslinks {text-decoration: underline;
     font-weight: bold;
-    font-size: 20px;}
+    font-size: 20px;
+    color: #ad10ad;}
 
 .telef{border-radius: 10px; 
     border: 1px solid #ad10ad;
@@ -107,12 +108,12 @@ em {color: rgb(239, 17, 213);
 .contenedor-recursos li{padding: 5px;
     }
 .texto-recursos{padding: 15px;
-    margin: 15px;
+    margin: 3px 3px 3px 15px;
     height: 40%;
     width: 65%;
-    font-size: 1em;
+    font-size: 18px;
     }
-footer{font-size: 10px;
+footer{font-size: 12px;
     text-align: center;
     color:rgb(253, 249, 230);
     background-color: #ad10ad;
@@ -145,6 +146,6 @@ footer{font-size: 10px;
 @media screen and (min-width: 1024px) {
     /*.media {background-color: rgb(0, 5, 5);} */
     .contenedor-recursos {flex-direction: row;}
-    .telef {width: 40rem;}
+    .telef {width: 30rem;}
     }
 
